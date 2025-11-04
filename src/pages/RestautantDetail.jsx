@@ -112,12 +112,14 @@ const RestaurantDetail = () => {
     <div className="p-6 min-h-screen bg-gray-900 text-white flex flex-col items-center">
       <Header />
 
-      <button 
-        onClick={() => navigate("/list")}
-        className="mt-4 text-sm px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded"
-      >
-        Back
-      </button>
+      <div className="flex w-full justify-end">
+        <button 
+          onClick={() => navigate("/list")}
+          className="mt-4 text-sm px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded"
+        >
+          Back
+        </button>
+      </div>
 
       <h2 className="text-xl font-semibold mt-4">{restaurant.name}</h2>
 
