@@ -24,7 +24,7 @@ A React-based web application for discovering and sharing nearby restaurants. Th
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Manju025/fastor-react-assignment.git
    cd fastor-app
    ```
 
